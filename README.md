@@ -25,8 +25,9 @@ nums = [4, 5, 6, 2]
 goal = 8
 
 print(find_first_sum(nums, goal))  # Resultado: [0, 1]
+```
 
-Cómo ejecutar el script
+## **Cómo ejecutar el script**
 
 1. Clonar este repositorio:
     git clone https://github.com/LMellaVillanueva/logic_exercise.git
@@ -37,7 +38,9 @@ Cómo ejecutar el script
 3. Ejecutar el archivo:
     python main.py
 
-Apuntes de implementación
+---
+
+## **Apuntes de implementación**
 
 - Se usa enfoque iterativo para asegurar eficiencia y claridad.
 - Intento de implementar List Comprehension, pero devolvía todas las coincidencias, retornando todos los índices en vez de los primeros.
