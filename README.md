@@ -1,13 +1,19 @@
-First Sum Exercise
+# **First Sum Exercise**
 
-Busca el primer par de números adyacentes que sean igual a un número dado 'goal'.
+Busca el **primer par de números adyacentes** cuya suma sea igual al valor entregado en `goal`.
 
-Objetivo
+---
 
-Este ejercicio forma parte de mi práctica para mis estudios de Python y mejorar mi lógica de desarrollador. La función find_first_sum(nums, goal) recorre una lista de números enteros y retorna los índices de los primeros números que sumados dan de resultado 'goal'.
+## **Objetivo**
 
-Ejemplo de uso:
+Este ejercicio forma parte de mi práctica para mejorar mi lógica de programación en Python.  
+La función `find_first_sum(nums, goal)` recorre una lista de enteros y retorna los **índices del primer par consecutivo** cuya suma coincide con el objetivo.
 
+---
+
+## **Ejemplo de uso**
+
+```python
 def find_first_sum(nums, goal):
     for i in range(len(nums) - 1):
         if nums[i] + nums[i + 1] == goal:
@@ -19,7 +25,6 @@ nums = [4, 5, 6, 2]
 goal = 8
 
 print(find_first_sum(nums, goal))  # Resultado: [0, 1]
-
 
 Cómo ejecutar el script
 
